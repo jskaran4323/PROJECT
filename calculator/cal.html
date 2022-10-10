@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calstyle.css">
+    <script src="https://kit.fontawesome.com/b5db2a5e00.js" crossorigin="anonymous"></script>
+  
+    <title>Document</title>
+</head>
+
+<body >
+    <img src="\bulb\images\cal2.jpg"  class="cal">
+     
+         
+      
+       <form id="tempcal" onsubmit="calculator(); return false">
+        <h1 >I am a calculator <span id="temp"></span></h1>
+
+        <label for="calculations">PLEASE ENTER THE VALUES and OPERATOR</label>
+    <br><br>
+    <input type="number" id="calc1">
+    <input type="number"  id="calc2">
+    <select name="cal_diff" id="cal_diff">
+    <option value="add">Addition</option>
+    <option value="subs">Subtraction</option>
+    <option value="multi">Mutliplication</option>
+    <option value="divi">Division</option>
+ </select><br><br>
+
+<input type="submit" name="calc">
+<br/><br/>
+<span id="endresult"></span>
+    
+    
+    </form>
+    <div class="hel">
+    <div class="counter-container" id="icon1">
+        <i class="fa-solid fa-mug-hot fa-3x" ></i>
+       <div class="counter" data-target="4000"></div>
+       <span>Ongoing Problem</span>
+    </div>
+    <div class="counter-container" id="icon2">
+        <i class="fa-solid fa-users fa-3x" ></i>
+       <div class="counter" data-target="56000"></div>
+       <span>Problem Solved</span>
+    </div>
+</div>
+    <script src="calscript.js"></script>
+</body>
+</html>
