@@ -1,3 +1,2 @@
 # PROJECT
-my projects
-A list of my projects
+A List of Projects That I have made
